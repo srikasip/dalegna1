@@ -18,8 +18,8 @@ function HeaderBehavior()
       $(".header").removeClass("stuckTop");
     }
     windowWidth = $(document).outerWidth();
-    logoWidth = $("#scg_logo").outerWidth();
-    startPos = ((windowWidth - logoWidth)/2);
+    logoWidth = 101;//$("#svg_logo").outerWidth();
+    startPos = ((windowWidth - logoWidth));
     endPos = (-1*startPos);
     currOffset = linearFunction(0,0,1,endPos,numWindows);
     $("#svg_logo").css("margin-left", String(currOffset) + "px");
@@ -29,7 +29,7 @@ function HeaderBehavior()
     if(!$(".header").hasClass("stuckTop"))
     {
       $(".header").addClass("stuckTop");
-    } 
+    }
   }
   window.requestAnimationFrame(HeaderBehavior);
 }

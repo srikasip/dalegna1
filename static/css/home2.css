@@ -111,11 +111,41 @@ div.header
   text-align: center;
   background-color:transparent;
   padding:32px;
+  color:#262626;
+  fill:#262626;
 }
+div.header.stuckTop
+{
+  background-color:#262626;
+  color:#ffffff;
+  fill:#ffffff;
+  padding-top:16px;
+  padding-bottom:16px;
+}
+div#otherLogo
+{
+  font-family:"Rozha One";
+  float:left;
+  font-size:20pt;
+
+}
+div.header div#otherLogo
+{
+  display:none;
+}
+div.header.stuckTop div#otherLogo
+{
+  display:block;
+}
+div.header.stuckTop #svg_logo
+{
+  display:none;
+}
+
 #svg_logo
 {
-  fill:#262626;
-  height:10em;
+  fill:inherit;
+  height:120px;
 }
 .toppings
 {
@@ -155,7 +185,7 @@ Menu Stuff
 .hamburger{
   background:none;
   position:absolute;
-  color:#262626;
+  color:inherit;
   top:0;
   right:0;
   line-height:45px;
