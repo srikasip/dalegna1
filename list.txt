@@ -1,0 +1,11 @@
+list of things to do: 
+
+1. Turn images into a slider
+2. Add a Menu Section
+3. Add a Team Section
+4. Instagram Integration
+5. Story
+6. News Clippings
+
+-----
+
