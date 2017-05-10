@@ -125,10 +125,12 @@ div.header
   padding:32px;
   color:#262626;
   fill:#262626;
+  -webkit-transition: background-color 2s; /* Safari */
+  transition: background-color 2s;
 }
 div.header.stuckTop
 {
-  background-color:#262626;
+  background-color:#00cdcd;
   color:#ffffff;
   fill:#ffffff;
   padding-top:16px;
@@ -139,6 +141,8 @@ div#otherLogo
   font-family:"Rozha One";
   float:left;
   font-size:20pt;
+  -webkit-transition: display 2s; /* Safari */
+  transition: display 2s;
 
 }
 div.header div#otherLogo

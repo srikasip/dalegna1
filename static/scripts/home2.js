@@ -104,14 +104,14 @@ function SetMenu()
   $( ".cross" ).hide();
   $( ".menu_list" ).hide();
   $( ".hamburger" ).click(function() {
-    $( ".menu_list" ).slideToggle( "slow", function() {
+    $( ".menu_list" ).slideToggle("slow", function() {
       $( ".hamburger" ).hide();
       $( ".cross" ).show();
     });
   });
 
-  $( ".cross, .menu_item").click(function() {
-    $( ".menu_list" ).slideToggle( "slow", function() {
+  $(".cross, .menu_item").click(function() {
+    $( ".menu_list" ).slideToggle("slow", function() {
       $( ".cross" ).hide();
       $( ".hamburger" ).show();
     });
