@@ -82,7 +82,19 @@ table.hours tr:last-child
 {
   border:none;
 }
+.carousel-caption
+{
+  top: 12em;
+  bottom: auto;
+  color:#262626;
+  text-shadow:none;
+}
+
 @media only screen and (max-width: 600px) {
+  .carousel-caption
+  {
+    top:8em;
+  }
   div.businessDetails{
     width:80%;
     left:10%;
@@ -246,13 +258,6 @@ Menu Stuff
 .menu_list a{text-decoration:none; color:#666;}
 .menu_list a:hover{text-decoration:none; color:#666;}
 
-.carousel-caption
-{
-  top: 12em;
-  bottom: auto;
-  color:#262626;
-  text-shadow:none;
-}
 .overlay
 {
   position:absolute;
